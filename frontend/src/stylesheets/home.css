@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+.container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer label {
+    color: rgb(81 165 161);
+    text-shadow: 1px 9px 10px #ff0f0f;
+    font-size: 60px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-weight: 900;
+    margin-right: 20px;  
+}
+
+.inputField {
+    width: 350px;
+    height: 60px;
+    font-size: 21px;
+    padding: 5px 10px 5px 10px;
+}
+
+.inputField::placeholder {
+    font-size: 18px;
+}
